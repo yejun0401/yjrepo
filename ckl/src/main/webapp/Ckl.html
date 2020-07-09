@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>boot TEST</title>
+    <script type="text/javascript">
+        var protocol = location.protocol;
+        var hostName = location.hostname;
+        var port = location.port;
+        var host = protocol+"//"+hostName+":"+port
+    </script>
+</head>
+
+<body>
+    <form name="testForm" method="post" onsubmit="false">
+    <h1> boot TEST System </h1>
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr><td colspan=2><h2> ※※※※※※※※※※※※※※※※ 큐 등록 ※※※※※※※※※※※※※※※※※</h2></td></tr>
+            <tr><td height='30' >리스트</td><td> <a href="/api/test/list" target="_blank"><script>document.write(host);</script>/api/test/list</a>  </td></tr>
+            <tr><td height='30' >특정항목</td><td> <a href="/api/test/article/3" target="_blank"><script>document.write(host);</script>/api/test/article/3 </a> </td></tr>
+            <tr><td height='30' >업로드</td><td> <a href="/api/test/" target="_blank"><script>document.write(host);</script>/</a>  </td></tr>        </table>
+    </form> 
+
+</body>
+</html>
