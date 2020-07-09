@@ -21,6 +21,7 @@ public class CklApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 
 		SpringApplication.run(CklApplication.class, args);
+		System.out.println("run end");
 	}
 
 }
