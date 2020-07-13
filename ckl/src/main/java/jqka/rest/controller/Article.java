@@ -1,4 +1,4 @@
-package com.example.ckl2;
+package jqka.rest.controller;
 
 public class Article {
 	 private long seq;
