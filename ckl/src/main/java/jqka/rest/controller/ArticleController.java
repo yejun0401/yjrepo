@@ -44,6 +44,11 @@ public class ArticleController {
              
             list.add(article);
     }
+    System.out.println("key " + key);
+    System.out.println("key " + key);
+    System.out.println("key " + key);
+    System.out.println("key " + key);
+    
     return list;
   }
  
