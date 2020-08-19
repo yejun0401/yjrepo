@@ -23,6 +23,7 @@ public class CklApplication extends SpringBootServletInitializer {
 		System.out.println("run end");
         System.out.println("run end");
         System.out.println("run end");
+        System.out.println("run ckl_10000");
 	}
 
 }
